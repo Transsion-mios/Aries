@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AriesPayDemo</string>
+
+    <string name="pay_success">Pay success!</string>
+
+    <string name="pay">Pay</string>
+    <string name="product_list">Payment products list</string>
+
+    <string name="not_select_price">Unchecked corresponding amount payment</string>
+    <string name="payment_in_doing">Paying\u2026</string>
+    <string name="dialog_payment_title">Payment tips</string>
+    <string name="dialog_payment_msg" >You will have to pay %1$s,whether to pay?</string>
+    <string name="dialog_confirm">Pay</string>
+    <string name="dialog_cancle">Cancle</string>
+
+    <string name="error_last_pay_not_done">Payment is still in payment,please wait a moment</string>
+    <string name="error_invalid_ap_id">Invalid ap_id</string>
+    <string name="error_invalid_cp_id">Invalid cp_id</string>
+    <string name="error_invalid_api_key">Invalid api_key</string>
+    <string name="error_invalid_imsi">Invalid imsi</string>
+    <string name="error_invalid_cofigure">Can not match the configuration</string>
+    <string name="error_over_day_or_month">Payment beyond the limit of month</string>
+    <string name="error_invalid_money">The amount of payment amount can not match the configuration</string>
+    <string name="error_pay_fail">Pay fail!</string>
+</resources>

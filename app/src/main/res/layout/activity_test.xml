@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ghana SIM Pay"
+            android:textColor="@color/colorPrimary"
+            />
+        <Button
+            android:id="@+id/ghanaPay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GhanaPay"
+            android:layout_marginLeft="30dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/queryOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="queryOrder"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </ScrollView>
+</LinearLayout>
